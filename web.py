@@ -28,7 +28,7 @@ def webdemo():
         json={'content': 'laugh'}
     )
     response.raise_for_status()
-    return 'Laught added to https://api.github.com/repos/yogurta/web-demo/issues/1/reactions'
+    return 'Laugh added to https://api.github.com/repos/yogurta/web-demo/issues/1/reactions'
 
 
 @app.route('/test-repo/')
@@ -39,4 +39,4 @@ def testrepo():
         json={'content': 'laugh'}
     )
     response.raise_for_status()
-    return 'Laught added to https://api.github.com/repos/yogurta/pythonAdvanced/issues/1/reactions'
+    return 'Laugh added to https://api.github.com/repos/yogurta/pythonAdvanced/issues/1/reactions'
